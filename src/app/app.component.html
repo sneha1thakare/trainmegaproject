@@ -1,0 +1,17 @@
+<div class="container" >
+  <div class="row">
+    <div class="col-lg-12">
+      <h3 class="text"><b>Train Booking System</b></h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+      <h4 class="text1">Train Name:- {{ trainName }}</h4>
+      <h4 class="text1">Aval Ticket:- {{ avalTicket }}</h4>
+</div>
+    <div class="col-lg-6">
+      <button class="btn btn-success" style="margin-right:10px;" (click)="bookTicket()">Book Ticket</button>
+      <button class="btn btn-danger" (click)="cancelTicket()">Cancel Ticket</button>
+    </div>
+  </div>
+</div>
